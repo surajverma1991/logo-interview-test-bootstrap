@@ -1,0 +1,347 @@
+    .navbar {
+        margin-bottom: 0;
+    }
+
+    .navbar-default {
+        border: none;
+    }
+
+    .txt {
+        font-weight: normal;
+    }
+
+    .navbar-default .txt-color-change {
+        color: orange;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    .navbar-default .txt-color-change:hover,
+    .navbar-default .txt-color-change:active,
+    .navbar-default .txt-color-change:focus {
+        color: orange;
+    }
+
+    .social {
+        border: 1px solid;
+        border-radius: 50px;
+        width: 38px;
+        height: 39px;
+        margin: 5px;
+        padding: 10px 15px;
+        color: #FFF;
+        background: orange;
+    }
+
+    .navbar-default .txt-color-change>li>a {
+        color: #000;
+        font-size: 10px;
+        font-weight: bold;
+        margin: 15px 10px;
+        padding: 0px 0 0px 0;
+    }
+
+    .navbar-default .txt-color-change>li>a:hover,
+    .navbar-default .txt-color-change>li>a:active,
+    .navbar-default .txt-color-change>li>a:focus,
+    {
+        color: #000;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    .navbar-default .icon-change-color>li>a {
+        color: #fff;
+        font-size: 25px;
+        padding: 7px 7px;
+        text-align: center;
+    }
+
+    .navbar-default .icon-change-color>li>a:hover,
+    .navbar-default .icon-change-color>li>a:active,
+    .navbar-default .icon-change-color>li>a:focus {
+        color: #fff;
+        font-size: 25px;
+        padding: 7px 7px;
+        text-align: center;
+        background: orange;
+    }
+
+    .form-control {
+        border-bottom: 1px solid #000;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-radius: 0px;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        -webkit-transition: none;
+        -o-transition: none;
+        transition: none;
+        outline: none;
+        width: 94%;
+        padding: 0;
+        margin: 10px 10px;
+        background: #f0f0f0;
+    }
+
+    .form-control:focus {
+        outline: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-color: #000;
+    }
+
+    .submit {
+        color: #fff;
+        background-color: orange;
+        border-color: none;
+        border-radius: 0;
+        font-size: 12px;
+        padding: 4px 7px;
+        border: none;
+    }
+
+    .submit:hover,
+    .submit:focus,
+    .submit:active {
+        color: #fff;
+        background-color: orange;
+        border-color: none;
+        border-radius: 0;
+    }
+
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:focus,
+    .navbar-default .navbar-nav>.active>a:hover {
+        background: none;
+        border-bottom: 2px solid orange;
+        color: #000;
+    }
+
+    .section {
+        position: relative;
+        height: 477px;
+    }
+
+    .main-div {
+        height: 600px;
+    }
+
+    .inner-sec {
+        width: 100%;
+        height: 350px;
+        background: url("../images/background.jpg");
+        background-size: cover;
+    }
+
+    .form-div {
+        position: relative;
+    }
+
+    .sign-up-form {
+        width: 50%;
+        float: right;
+        position: absolute;
+        right: 15px;
+        bottom: 0;
+        background: #f0f0f0;
+    }
+
+    .title {
+        text-align: center;
+        border-bottom: none;
+        padding: 30px 0 10px 0;
+    }
+
+    .abc {
+        width: 100%;
+    }
+
+    .first,
+    .second {
+        width: 45%;
+        padding: 0;
+        float: left;
+        /* border-bottom: none; */
+        margin: 0px 10px 10px 9px;
+        background: #f0f0f0;
+    }
+
+    .submit-button {
+        width: 100%;
+        text-align: center;
+        margin: 40px 0 20px 0;
+    }
+
+    .text-group {
+        position: absolute;
+        bottom: 150px;
+        left: 40px;
+        text-align: center;
+        font-size: 30px;
+        color: #fff;
+        font-weight: bold;
+    }
+
+    .text-1 {
+        text-align: center;
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    .text-2 {
+        text-align: center;
+        font-size: 15px;
+        padding-bottom: 20px;
+    }
+
+    .box-div {
+        background: #f0f0f0;
+        margin: 0 15px 0 0;
+    }
+
+    .box-div1 {
+        background: #f0f0f0;
+    }
+
+    .img-group1 {
+        float: left;
+        padding: 14px 16px;
+    }
+
+    .img-group2 {
+        float: right;
+        padding: 14px 16px;
+    }
+
+
+    .img-group3 {
+        width: 100%;
+        text-align: center;
+        padding: 14px 0 0 16px;
+    }
+
+
+    .details {
+        padding: 30px 0;
+        margin: 0 0 15px 0;
+    }
+
+    .details span {
+        color: orange;
+    }
+
+    .details1 span {
+        color: orange;
+    }
+
+    .details1 {
+        padding: 34px 0;
+    }
+
+    .details h1 {
+        margin: 0;
+        padding: 5px 10px;
+        font-size: 15px;
+    }
+
+    .details p {
+        margin: 0;
+        padding: 14px 10px;
+    }
+
+    .details1 h1 {
+        margin: 0;
+        padding: 0px 10px;
+        font-size: 15px;
+    }
+
+    .details1 p {
+        margin: 0;
+        padding: 20px 10px;
+    }
+
+    .footer {
+        height: 50px;
+        background: #000;
+        border-top: 1px solid red;
+    }
+
+    .main-div1 {
+        padding: 0;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .img-group3 {
+            width: auto;
+            padding: 14px 10px;
+            float: left;
+        }
+
+        .section {
+            height: auto;
+        }
+
+        .sign-up-form {
+            width: 100%;
+            position: relative;
+            right: 00px;
+            top: 0px;
+        }
+
+        .first,
+        .second {
+            width: 95%;
+        }
+
+        .submit {
+            margin: 15px;
+        }
+
+        .text-group {
+            bottom: 0;
+        }
+
+        .main-div {
+            height: auto;
+            margin-bottom: 20px;
+        }
+
+        .details1 {
+            padding: 35px 0;
+        }
+
+        .details1 p {
+            padding: 12px 10px;
+        }
+
+        .box-div{
+        	margin: 0;
+        }
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .details1 p {
+            margin: 0;
+            padding: 21px 10px;
+        }
+
+        .img-group1,
+        .img-group2 {
+            padding: 24px 16px
+        }
+
+        .img-group3 {
+            padding: 24px 0 0 16px;
+        }
+
+        .details1 {
+            padding: 27px 0;
+        }
+
+        .first,
+        .second {
+            width: 44%;
+        }
+    }
